@@ -1,21 +1,56 @@
-.brand-logo {
-    margin-left: 1em;
-}
-
-.parallax-container {
-    background-color: black;
-    min-height: 380px;
-    line-height: 0;
-    height: auto;
-    color: rgba(255, 255, 255, .9);
-/*
+                .brand-logo {
+                margin-left: 1em;
+            }
+            
+            .parallax-container {
+                background-color: black;
+                min-height: 380px;
+                line-height: 0;
+                height: auto;
+                color: rgba(255, 255, 255, .9);
+                /*
     font-family: 'Open Sans',
 sans-serif;
 font-weight: 800;
 
 }
 */
-
-.parallax-container .section {
-    width: 100%;
-}
+                .parallax-container .section {
+                    width: 100%;
+                }
+                /* footer */
+                body {
+                    display: flex;
+                    min-height: 100vh;
+                    flex-direction: column;
+                }
+                main {
+                    flex: 1 0 auto;
+                }
+                /* Portfolio*/
+                .portfolio .col {
+                    margin-bottom: 24px;
+                }
+                .portfolio h5 {
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin-bottom: 15px;
+                }
+                .portfolio h6 {
+                    text-align: center;
+                    text-transform: uppercase;
+                    margin-bottom: 45px;
+                }
+                .portfolio hr {
+                    width: 40px;
+                    margin-bottom: 45px;
+                }
+                .portfolio .portfolio-holder {
+                    clear: both;
+                    text-align: center;
+                }
+                .portfolio img {
+                    width: 33%;
+                    display: inline-block;
+                    float: left;
+                }
